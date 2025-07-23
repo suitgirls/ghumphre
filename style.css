@@ -1,0 +1,49 @@
+.spanone {
+        text-align: left;
+        display: inline;
+}
+            
+.spantwo {
+    text-align: right;
+    display: inline;
+    margin-left: 1000px;
+}
+            
+img {
+    display: block;
+    margin: auto;
+}
+
+p, h1, h2, span {
+    font-family: monospace;
+    text-align: center;
+}
+
+p {
+    font-size: 120%;
+}
+    
+h1 {
+    color: orange;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 450%;
+}
+
+ p, h1, h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+nav {
+    background-color: midnightblue;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
