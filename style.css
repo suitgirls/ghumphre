@@ -142,3 +142,8 @@ img {
 footer {
     background-color: #2f2762ff;
 }
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: orange;
+}
