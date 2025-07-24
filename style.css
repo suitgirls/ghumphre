@@ -113,3 +113,8 @@ nav a:hover {
     border-width: 2px;
     border-color: #958cc5ff;
 }
+
+.spaceship {
+    height: 20%;
+    width: 20%;
+}
