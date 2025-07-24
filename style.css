@@ -1,3 +1,12 @@
+body {
+    background-color: #2f2762ff;
+    color: #d4cfebff;
+}
+
+.topofmypage {
+    background-color: #10083fff;
+}
+
 .spanone {
         text-align: left;
         display: inline;
@@ -15,37 +24,59 @@ img {
 }
 
 p, h1, h2, span {
-    font-family: monospace;
     text-align: center;
+    color: white;
 }
 
 p {
-    font-size: 120%;
+    font-size: 125%;
+    padding-left: 100px;
+    padding-right: 100px;
 }
     
 h1 {
-    color: orange;
-    font-family: "Courier New", Courier, monospace;
+    font-size: 650%;
+    padding: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 300%;
     font-weight: bold;
-    font-size: 450%;
+    background-color: #10083fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.personal {
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: none;
+    margin-bottom: none;
+    text-decoration: underline;
 }
 
  p, h1, h2 {
-    font-family: monospace;
     text-align: center;
 }
 
 nav {
-    background-color: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #958cc5ff;
 }
 
 nav a {
-    color: white;
+    color: #d4cfebff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav a:hover {
-    background-color: orange;
-    color: black;
+    background-color: #958cc5ff;
+    color: #f7b07cff;
 }
 
 .center {
@@ -53,4 +84,34 @@ nav a:hover {
     margin-right: auto;
     display: block;
     width: fit-content;
+}
+
+.underiframe {
+    margin-top: 50px;
+}
+
+img {
+    color: #d4cfebff;
+}
+
+.center {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #958cc5ff;
+}
+
+.blogtitle {
+    text-decoration: underline;
+}
+
+.personalparas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    background-color: #10083fff}
+
+.annoyingphoto {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #958cc5ff;
 }
