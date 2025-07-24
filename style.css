@@ -150,3 +150,8 @@ footer {
 body {
     font-family:'Times New Roman', Times, serif;
 }
+
+.banner {
+    margin: none;
+    padding:none;
+}
