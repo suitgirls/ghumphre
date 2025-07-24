@@ -1,6 +1,7 @@
 body {
     background-color: #2f2762ff;
     color: #d4cfebff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topofmypage {
@@ -136,4 +137,21 @@ img {
     border-color: Black;
     border-style: solid;
     border-width: 2px;
+}
+
+.carousel-inner img {
+                width: 100%; /* Set width to 100% */
+                margin: auto;
+                min-height:200px;
+            }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none; 
+    }
+}
+
+footer {
+    background-color: black;
 }
