@@ -21,6 +21,8 @@ body {
 img {
     display: block;
     margin: auto;
+    color: #d4cfebff;
+
 }
 
 p, h1, h2, span {
@@ -88,10 +90,6 @@ nav a:hover {
 
 .underiframe {
     margin-top: 50px;
-}
-
-img {
-    color: #d4cfebff;
 }
 
 .center {
