@@ -64,6 +64,9 @@ h1 {
     padding-left: 40px;
     padding-right: 40px;
     font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #958cc5ff;
 }
 
 h2 {
